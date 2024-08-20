@@ -22,9 +22,22 @@
         android:inputType="text"
         android:text="Nome completo..." />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enviar" />
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviar" />
+
+        <TextView
+            android:id="@+id/tvNomeDigitado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aqui aparecera o nome" />
+
+    </LinearLayout>
+
 </LinearLayout>
